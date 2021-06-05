@@ -1,0 +1,94 @@
+.container__left {
+    width: 536px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.container__left h1{
+    color: #1877F2;
+    font-size: 36pt;
+    font-weight: bolder;
+}
+
+.container__left h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-top: -13px;
+}
+
+.container__left p {
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -22px;
+}
+
+.container__login {
+    display: flex;
+}
+
+.container__login p {
+    text-align: center;
+    margin: 2px;
+}
+
+.recent__login {
+    height: 200px;
+    width: 160px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px rgb(221, 226, 255) solid;
+    margin: 3px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.recent__login:hover {
+    box-shadow: 0px 0px 10px 2px rgb(175, 182, 216);
+}
+
+.recent__login img {
+    height: 160px;
+    width: 100%;
+}
+
+.recent__login--erase{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0,.6);
+    color: white;
+}
+
+.recent__login--eraseX {
+    position: inherit;
+    top: -5px;
+    left: 4px;
+}
+
+.recent__login--add {
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+.recent__login--sign {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20pt;
+    text-align: center;     
+    background-color: #1877F2;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

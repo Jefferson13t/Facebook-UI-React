@@ -1,0 +1,109 @@
+.container__right {
+    width: 396px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgb(175, 182, 216);
+
+}
+
+.container__right--inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__input {
+    height: 52px;
+    width: 364px;
+    position: relative;
+    border: 1px solid rgb(221, 226, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.input--password {
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(241, 243, 253);
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+
+.input--email {
+    height: 52px;
+    width: 364px;
+    background-color: rgb(241, 243, 253);
+    border: 1px solid rgb(221, 226, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 12pt;
+}
+
+.input--button {
+    background-color: #1877F2;
+    width: 100%;
+    height: 100%;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    opacity: .9;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.input--button:hover {
+    opacity: 1;
+}
+
+.container__right--inputs a {
+    color: #1877F2;    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.container__right--newAccount {
+    background-color: #42B72A;
+    height: 50px;
+    width: 170px;
+    font-size: 14pt;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 110px;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.container__right--newAccount:hover {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.newPage {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
