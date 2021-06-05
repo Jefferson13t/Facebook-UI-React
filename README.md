@@ -1,4 +1,4 @@
-### UI clone
+### UI clone com React
 
 This is a UI clone of the Facebook login interface made with React.js
 
